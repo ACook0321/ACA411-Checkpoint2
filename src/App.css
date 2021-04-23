@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-list li {
+  margin: auto 20px;
+  color:black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10vh auto;
+  width: 25vw;
+}
+
+.form .input {
+  width: 100%;
+}
+
+.form Button {
+  margin: 20px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.NavBar {
+  margin-bottom: 20px;
+}
+
+.welcomeBanner {
+  height: 20px;
+  background-color: #D3D3D3;
+}
+
+.welcomeBanner h6 {
+  margin: 1vh 2vw;
+  color: #888888;
+}
+
+.businessDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.map {
+  margin: 10vh;
+}
+
+.nav-bar{
+  background-color: rgb(228, 8, 228);
 }
